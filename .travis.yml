@@ -18,4 +18,4 @@ script:
   - NODE_ENV=production npm run deploy
 
 after_success:
-  - npm run codecov
+  - npm run codecov 
